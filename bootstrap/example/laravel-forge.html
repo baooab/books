@@ -39,7 +39,11 @@
         color: #007bff;
       }
 
-      .text-dark-gray {
+      .text-mint {
+        color: #baf9e6;
+      }
+
+      .text-dark-grey {
         color: #8a8a8a;
       }
 
@@ -53,6 +57,37 @@
 
       .navbar-brand-text {
         font-family: "Microsoft JhengHei UI";
+      }
+
+      .w-620px {
+        max-width: 620px;
+        margin: 0 auto;
+      }
+
+      blockquote {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.25rem;
+      }
+
+      .quote-author-name {
+        font-weight: 600;
+        font-size: 1rem;
+      }
+
+      .quote-author-avatar {
+        float: left;
+        width: 60px;
+        height: 60px;
+      }
+
+      .footer-links li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .footer-links a {
+        color: #8a8a8a;
       }
     </style>
 
@@ -85,16 +120,129 @@
     </nav>
 
     <!-- Banner -->
-    <div class="bg-faded py-6">
-      <div class="container text-center">
+    <div class="bg-faded">
+      <div class="container py-6 text-center">
         <h1><strong>Painless</strong> PHP Servers</h1>
-        <p class="lead text-dark-gray">Provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more.</p>
+        <p class="lead text-dark-grey">Provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more.</p>
         <a href="#" class="btn btn-lg btn-primary mx-md-3 my-3">Register Now</a>
-        <a href="#" class="btn btn-lg btn-white text-blue mx-md-3 my-3">Register Now</a>
+        <a href="#" class="btn btn-lg btn-white text-blue mx-md-3 my-3">Learn More</a>
       </div>
     </div>
 
+    <div class="bg-white">
+      <div class="container py-6">
+        <div class="w-620px text-center mb-5">
+          <h2 class="text-blue">Loved by thousands of developers:</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 mb-4 mb-md-0 d-flex flex-column justify-content-between">
+            <blockquote>Forge helps me focus on writing software instead of writing and maintaining deployment solutions.</blockquote>
+            <div class="quote-author">
+              <img src="https://forge.laravel.com/images/marketing/testimonial-avatar-03.png" alt="" class="img-circle quote-author-avatar mr-3">
+              <div class="pt-2">
+                  <h4 class="quote-author-name mb-0">Beau D. Simensen</h4>
+                  <p>Software Developer at <a href="http://dflydev.com ">dflydev</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-4 mb-md-0 d-flex flex-column justify-content-between">
+            <blockquote>Never before has launching new servers been this easy.</blockquote>
+            <div class="quote-author">
+              <img src="https://forge.laravel.com/images/marketing/testimonial-avatar-02.png" alt="" class="img-circle quote-author-avatar mr-3">
+              <div class="pt-2">
+                  <h4 class="quote-author-name mb-0">Eric Barnes</h4>
+                  <p>Curator at <a href="https://laravel-news.com ">Laravel News</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-4 mb-md-0 d-flex flex-column justify-content-between">
+            <blockquote>Forge gives me the convenience I love while letting me keep full control of my servers.</blockquote>
+            <div class="quote-author">
+              <img src="https://forge.laravel.com/images/marketing/testimonial-avatar-01.png" alt="" class="img-circle quote-author-avatar mr-3">
+              <div class="pt-2">
+                  <h4 class="quote-author-name mb-0">Chris Fidao</h4>
+                  <p>Founder at <a href="https://serversforhackers.com/">Servers for Hackers</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="bg-dark">
+      <div class="container py-6">
+        <div class="text-center mb-5 w-620px">
+          <h2 class="text-white">FORGE IS ALREADY MANAGING 150,145 APPLICATIONS. HERE'S WHAT IT CAN DO:</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 70 60">
+                  <g fill-rule="evenodd ">
+                      <g id="goodies">
+                          <path class="icon-component-dark " d="M23 60a13 13 0 0 1-.88-25.97 16 16 0 0 1 29.13-7L52 27a10 10 0 0 1 9.9 11.39A11 11 0 0 1 59 60H23z "></path>
+                          <path class="icon-component-light " d="M13 60a13 13 0 0 1-.88-25.97 16 16 0 0 1 29.13-7L42 27a10 10 0 0 1 9.9 11.39A11 11 0 0 1 49 60H13z "></path>
+                      </g>
+                  </g>
+              </svg>
+            </div>
+            <h3 class="text-white">On The Cutting Edge</h3>
+            <p class="text-mint">We install Nginx, PHP 7.1, MySQL, Postgres, Redis, and all of the other goodies you need on the cloud of your choice. No more out-dated PHP installations.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                  <g fill-rule="evenodd ">
+                      <g id="icon-deploy ">
+                          <g transform="translate(7) ">
+                              <path class="icon-component-white " d="M12 18c0-4.42 2.54-10.54 5.66-13.66L21.3.7C21.69.31 22.44 0 23 0c.55 0 1.31.31 1.7.7l3.64 3.64C31.47 7.47 34 13.58 34 18V54H12V18z "></path>
+                              <path class="icon-component-dark " d="M34 14c0-2.2 1.27-5.27 2.82-6.82l.47-.47C37.7 6.3 38.44 6 39 6c.55 0 1.31.31 1.7.7l.48.48A11.07 11.07 0 0 1 44 14v42H34V14zM2 14c0-2.2 1.27-5.27 2.82-6.82l.47-.47C5.7 6.3 6.44 6 7 6c.55 0 1.31.31 1.7.7l.48.48A11.07 11.07 0 0 1 12 14v42H2V14zm13 40h6l2 2v2H13v-2l2-2zm21 2h6l2 2v2H34v-2l2-2zM4 56h6l2 2v2H2v-2l2-2zm21-2h6l2 2v2H23v-2l2-2z "></path>
+                              <path class="icon-component-light " d="M16 16c0-2.2 1.27-5.27 2.82-6.82L21.3 6.7c.4-.4 1.15-.71 1.71-.71.55 0 1.32.32 1.71.71l2.47 2.47A11.08 11.08 0 0 1 30 16V54H16V16zM0 50c0-1.1.63-2.63 1.41-3.41L8.6 39.4A5.52 5.52 0 0 0 10 36v-6c0-1.1.63-2.63 1.41-3.41L16 22v32H0v-4zm46 0c0-1.1-.63-2.63-1.41-3.41L37.4 39.4A5.52 5.52 0 0 1 36 36v-6c0-1.1-.63-2.63-1.41-3.41L30 22v32h16v-4z "></path>
+                              <path class="icon-component-dark " d="M14 24l2-2v32h-2V24zm18 0l-2-2v32h2V24zM21 44l2-2 2 2v14h-4V44zm-2-30h3v2h-3v-2zm5 0h3v2h-3v-2z "></path>
+                          </g>
+                      </g>
+                  </g>
+              </svg>
+            </div>
+            <h3 class="text-white">Push To Deploy</h3>
+            <p class="text-mint ">Deploying code couldn't be any easier. Just push to master on your GitHub, Bitbucket, or custom Git repository. We'll handle it from there.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                  <g fill-rule="evenodd ">
+                      <g id="icon-secure-copy ">
+                          <path class="icon-component-light" d="M21.05 16H21v8h18v-8h-.05a9 9 0 1 0-17.89 0zM15 24v-8h.03a15 15 0 1 1 29.93 0H45v8h5a2 2 0 0 1 2 2v24a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V26c0-1.1.9-2 2-2h5z "></path>
+                          <path class="icon-component-dark " d="M8 26c0-1.1.89-2 2-2h20v28H10a2 2 0 0 1-2-2V26z "></path>
+                          <rect class="icon-component-white" width="32" height="12" x="14" y="48" rx="2 "></rect>
+                          <path class="icon-component-dark" d="M22.76 51.53V50.1h-4.13V57h1.7v-2.62h2.04l-.24-1.45h-1.8v-1.4h2.43zm4.88.85c0-.64-.4-.99-1.14-.99h-.55v2.01h.53c.73 0 1.16-.36 1.16-1.02zm.4 1.86l1.65 2.54-1.75.29-1.51-2.44h-.47V57h-1.7v-6.9h2.41c1.67 0 2.65.76 2.65 2.18a2 2 0 0 1-1.28 1.96zM35.4 57v-1.37h-2.71v-1.49h2.22l-.22-1.41h-2v-1.26h2.62V50.1h-4.3V57h4.39zm5.95 0v-1.37h-2.71v-1.49h2.22l-.22-1.41h-2v-1.26h2.62V50.1h-4.3V57h4.39z "></path>
+                      </g>
+                  </g>
+              </svg>
+            </div>
+            <h3 class="text-white">Free SSL Certificates</h3>
+            <p class="text-mint ">Forge integrates with LetsEncrypt, allowing you to obtain free SSL certificates for your Forge powered applications.</p>
+          </div>
+        </div><!-- End .row -->
+      </div>
+    </div>
+
+    <div class="bg-white">
+      <div class="container text-center py-4">
+        <ul class="footer-links list-unstyled">
+            <li>
+                <a href="/features">Features</a>
+            </li>
+            <li>
+                <a href="https://envoyer.io ">Envoyer</a>
+            </li>
+            <li>
+                <a href="https://laravel.com ">Laravel</a>
+            </li>
+        </ul>
+        <p class="text-dark-grey ">Copyright © Laravel LLC.</p>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
