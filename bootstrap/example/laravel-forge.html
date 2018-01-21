@@ -15,8 +15,20 @@
         box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
       }
 
+      .py-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
+
       .btn-white {
         background-color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        .btn-lg {
+          width: 100%;
+          display: block;
+        }
       }
 
       .bg-faded {
@@ -25,6 +37,10 @@
 
       .text-blue {
         color: #007bff;
+      }
+
+      .text-dark-gray {
+        color: #8a8a8a;
       }
 
       .bt-blue {
@@ -68,7 +84,16 @@
       </div>
     </nav>
 
-    
+    <!-- Banner -->
+    <div class="bg-faded py-6">
+      <div class="container text-center">
+        <h1><strong>Painless</strong> PHP Servers</h1>
+        <p class="lead text-dark-gray">Provision and deploy unlimited PHP applications on DigitalOcean, Linode, AWS, and more.</p>
+        <a href="#" class="btn btn-lg btn-primary mx-md-3 my-3">Register Now</a>
+        <a href="#" class="btn btn-lg btn-white text-blue mx-md-3 my-3">Register Now</a>
+      </div>
+    </div>
+
 
 
     <!-- Optional JavaScript -->
